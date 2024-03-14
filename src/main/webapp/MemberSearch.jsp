@@ -30,7 +30,7 @@
 		String phone = rs.getString(5);
 		java.sql.Date regidate = rs.getDate("regidate");
 		
-		out.println(String.format("%s %s %s %s %s %s", id, password, email, name, phone, regidate) + "<br/>");	
+		out.println(String.format("%s %s %s %s %s %s", id, password, email, name, phone, regidate) + "<br/>");
 	}
 	
 	jdbc.close();
