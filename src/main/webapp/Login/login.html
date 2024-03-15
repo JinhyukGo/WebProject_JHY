@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="/src/css/login.css?v=<?php echo time(); ?>" />
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/ui-common.js?v=<?php echo time(); ?>"></script>
+  </head>
+  <body>
+    <section class="login">
+      <div class="logo">
+        <a href="/src/index.jsp"><img src="/src/images/logo.png" /></a>
+      </div>
+      <div class="loginarea">
+        <input class="loginbox" type="text" placeholder="ID" />
+        <input class="loginbox" type="password" placeholder="Password" />
+      </div>
+      <div class="savearea">
+        <input class="save" type="checkbox"></input>
+        <p class="savetext">Don't ask me again</p>
+      </div>
+      <div class="buttonarea">
+        <button>Log in</button>
+      </div>
+      <div class="forgot">
+        <p><a href="#">Forgot your Password?</a></p>
+      </div>
+      <div class="buttonarea signup">
+        <button>Sign up</button>
+      </div>
+    </section>
+  </body>
+</html>

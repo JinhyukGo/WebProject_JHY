@@ -1,0 +1,84 @@
+.logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+/*   border: 1px solid black; */
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.ErrMsg {
+	display: flex;
+	align-content: center;
+  	justify-content: center;
+/*   	border: 1px solid black; */
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+/*   border: 1px solid black; */
+}
+
+.login .loginarea {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+/*   border: 1px solid #555555; */
+}
+
+.loginarea .loginbox {
+  width: 220px;
+  height: 30px;
+  border: 1px solid #666666;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.login .savearea {
+  width: 250px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.login .savearea input {
+  width: 18px;
+  height: 18px;
+}
+.login .savearea .savetext {
+  text-align: center;
+  margin-bottom: 17px;
+  font-size: 15px;
+}
+
+.login .buttonarea {
+  width: 250px;
+  height: 60px;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .buttonarea button {
+  width: 230px;
+  height: 35px;
+}
+
+.login .forgot {
+  width: 250px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*   border: 1px solid black; */
+}
+
+.login .signup {
+  margin-top: 50px;
+}
